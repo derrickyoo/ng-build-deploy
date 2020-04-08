@@ -19,4 +19,4 @@ jobs:
           command: yarn ng build --prod
       - run:
           name: test
-          command: yarn ng test
+          command: yarn ng test --no-watch --no-progress
